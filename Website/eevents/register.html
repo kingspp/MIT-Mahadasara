@@ -1,0 +1,65 @@
+<div class="container">
+	<div class="row">
+        <div id="register-form" class="col-lg-6 col-lg-offset-3">
+            <div class="row">
+            	<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                
+                <div class="col-lg-12">
+                	<h2 class="uppercase">register</h2>
+                    <p>A Message : - Mahadasara, the fest</p>
+                </div>
+                <!-- REGISTER FORM -->
+                <div class="register-form col-lg-12">
+                    <div class="control-group">
+                        <div class="controls">
+                            <label for="name">NAME</label><br>
+                            <input type="text" name="name" id="name" required data-validation-required-message="Please enter your name" />
+                        </div>
+                    </div>
+                
+                    <div class="control-group">
+                        <div class="controls ">                           
+                            <label for="email">EMAIL</label><br>
+                            <input type="email" name="email" id="email"  required data-validation-required-message="Please enter your email" />
+                        </div>
+                    </div>
+                
+                    <div class="control-group">
+                        <div class="controls ">                            
+                            <label for="phone">PHONE</label><br>
+                            <input type="text" name="phone" id="phone" required data-validation-required-message="Please enter your phone" />
+                        </div>
+                    </div>
+                    
+                     <div class="control-group">
+                        <div class="controls ">                            
+                            <label for="type">Package</label><br>
+                            <select name="type" id="type">
+                                    <option value="" disabled selected="selected">Select Package</option>
+                                    <option value="Early Bird">Package 1</option>
+                                    <option value="Standart">Package 2</option>
+                                    <option value="Full Price">Package 3</option>
+                                </select>
+                        </div>
+                    </div>
+					
+					<div class="control-group">
+                        <div class="controls ">                            
+                            <label for="type">Distance</label><br>
+                            <select name="type" id="type">
+                                    <option value="" disabled selected="selected">Select distance</option>
+                                    <option value="five">5 KM</option>
+                                    <option value="ten">10 KM</option>                                    
+                                </select>
+                        </div>
+                    </div>
+					
+                
+                    <div class="col-lg-12 text-right">
+                        <button class="button button-big button-dark" onclick="contact_send();">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
