@@ -1,1 +1,1 @@
-web: cd Website && serve 
+web: python3 app.py
